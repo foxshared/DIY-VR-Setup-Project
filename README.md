@@ -5,17 +5,19 @@
 1. Headset with Android phone + VRidge(RiftCat)
 - Vridge software will view and emulate the head movement in 3-DOF(pitch,roll,yaw) from Android phone.
 
+2. Using Camera to get the position head with QR code. To accomplish 6-DOF with head tracking.
+
 ## Controller setup
 
-1. Using GY-85 module also using combination sensor with MPU6050(Gyro+Accel) and Compass sensor(QMC555...)
--Sensor controller is using arduino Uno where it send serial communication to python
+1. Using GY-85 module or using combination sensor with MPU6050(Gyro+Accel) and Compass sensor(QMC555...)
+the data will be read in arduino Uno board and send it via serial communication to PC with python program.
 
-2. Button for controller is using a cheap ps controller(not original) and its emulated to xbox controller by x360ce.exe.
-Freepie program will read the emulated xbox controller and emulated to hydra razer vr controller.
+2. Button for controller is using a playstation controller(not original) and its emulate to xbox controller by x360ce.exe.
+Freepie program will read the emulated data of x360ce program and emulated its again to hydra razer Vr Controller data for use in SteamVr.
 
-3. Working with camera to determine the x,y,z postion of controller and headset. The concept of using camera is to detect the
+3. Working with camera to determine the x,y,z postion of controller. The concept of using camera is to detect the
 QR code from camera and emulated in python for its position and send it to Freepie software. The goal is to accomplish 6-DOF
-with controller and the headset.
+with controller.
 
 # Program flow
 
