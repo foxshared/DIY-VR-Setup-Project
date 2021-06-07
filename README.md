@@ -1,9 +1,9 @@
 # Project name = DIY VR controller
 
-## Headset with Android phone + VRidge(RiftCat). The function of headset is display the view of game vr
-1. Vridge software will view and emulate the head movement in 3-DOF(pitch,roll,yaw) from Android phone.
+## Controller Setup
 
-# Controller is DIY
+1. Headset with Android phone + VRidge(RiftCat)
+- Vridge software will view and emulate the head movement in 3-DOF(pitch,roll,yaw) from Android phone.
 
 ## Controller setup
 
