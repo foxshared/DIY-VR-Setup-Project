@@ -1,6 +1,6 @@
 # Project name = DIY VR controller
 
-## Controller Setup
+## Headset Setup
 
 1. Headset with Android phone + VRidge(RiftCat)
 - Vridge software will view and emulate the head movement in 3-DOF(pitch,roll,yaw) from Android phone.
