@@ -1,5 +1,7 @@
 # Project name = DIY VR controller
 
+# Code already missing > maybe future will update
+
 ## Headset Setup
 
 1. Headset with Android phone + VRidge(RiftCat)
